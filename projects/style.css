@@ -1,4 +1,3 @@
-<style>
   h1 {
     color:yellow;
     font-size: 5em;
@@ -11,13 +10,13 @@
   }
   #sky {
     font-style:bold;
+    color:blue
+    background-color:yellow;
   }
   .mid-width {
     width: 500px;
   }
 
-<style> {
+ body {
   background-color:green
 }
-
-</style>
