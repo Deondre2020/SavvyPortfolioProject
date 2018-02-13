@@ -1,22 +1,28 @@
-  h1 {
+h1 {
     color:yellow;
     font-size: 5em;
     background-color:papayawhip;
     width:500px
   }
 
-  .backdrop {
+.backdrop {
     background-color:papayawhip;
   }
-  #sky {
+
+#sky {
     font-style:bold;
     color:blue;
     background-color:yellow;
   }
-  .mid-width {
+
+.mid-width {
     width: 500px;
   }
 
- body {
+body {
   background-color:green
+}
+
+#IntroLine {
+  color:red;
 }
