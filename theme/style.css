@@ -1,28 +1,15 @@
-  *{
-  border:1px solid blue;
-  margin: 10px;
-}
-
-.backdrop {
-    background-color:papayawhip;
-  }
-
-#sky {
-    font-style:bold;
-    color:blue;
-    background-color:yellow;
-  }
-
 body {
   background-color:green
 }
 
-#IntroLine {
-  color:red;
+p {
+  color:pink;
 }
 
-#header {
-
+.backdrop {
+  background-color:papayawhip;
+  padding: 10px;
+  margin: 10px;
 }
 
 .container {
@@ -33,26 +20,26 @@ body {
   margin-right: auto;
 }
 
-#header > .container {
-  color:pink;
-}
-
-#content > p {
-  color:pink;
-}
-
-#footer > p {
-  color:pink;
+#header > h1 {
+  color: red;
 }
 
 div li:nth-child(1n) {
   color:yellow;
 }
 
-div li:nth-child(2n) {
-  color:orange;
+#navigation {
+
 }
 
-div li:nth-child(3n) {
-  color:red;
+#header {
+
+}
+
+#content {
+
+}
+
+#footer {
+  
 }
