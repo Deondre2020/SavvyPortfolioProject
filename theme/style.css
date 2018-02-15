@@ -28,18 +28,36 @@ div li:nth-child(1n) {
   color:yellow;
 }
 
-#navigation {
+#navigation{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1.3rem;
+  width: 100vw;
+  background-color: tomato;
+}
+
+#navigation > ul > li{
+  display: inline;
+  list-style: none;
+}
+
+#navigation .dropdown {
+  display:none;
+}
+
+.navigation a:hover + .dropdown {
+  display: block;
+}
+
+.header {
 
 }
 
-#header {
+.content {
 
 }
 
-#content {
+.footer {
 
-}
-
-#footer {
-  
 }
