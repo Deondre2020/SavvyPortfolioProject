@@ -37,6 +37,14 @@ div li:nth-child(1n) {
   background-color: tomato;
 }
 
+#navigation ul.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
 #navigation > ul > li{
   display: inline;
   list-style: none;
@@ -44,10 +52,9 @@ div li:nth-child(1n) {
 
 #navigation .dropdown {
   display:none;
-  position: absolute;
 }
 
-#navigation a:hover + .dropdown
+#navigation a:hover + .dropdown,
 #navigation .dropdown:hover {
   display: block;
 }
@@ -56,8 +63,8 @@ div li:nth-child(1n) {
 
 }
 
-.content {
-
+#content {
+padding-top: 150px;
 }
 
 .footer {
