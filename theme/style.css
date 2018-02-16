@@ -2,6 +2,10 @@ body {
   background-color:green
 }
 
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
 p {
   color:pink;
 }
@@ -32,7 +36,6 @@ div li:nth-child(1n) {
   position: fixed;
   top: 0;
   left: 0;
-  height: 1.3rem;
   width: 100vw;
   background-color: tomato;
 }
@@ -52,6 +55,9 @@ div li:nth-child(1n) {
 
 #navigation .dropdown {
   display:none;
+  position:absolute;
+  top:0
+  left:0
 }
 
 #navigation a:hover + .dropdown,
