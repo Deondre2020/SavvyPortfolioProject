@@ -44,9 +44,11 @@ div li:nth-child(1n) {
 
 #navigation .dropdown {
   display:none;
+  position: absolute;
 }
 
-#navigation a:hover + .dropdown {
+#navigation a:hover + .dropdown
+#navigation .dropdown:hover {
   display: block;
 }
 
