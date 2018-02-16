@@ -13,7 +13,7 @@ p {
 }
 
 .container {
-  max-width: 760px;
+  max-width: 660px;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
@@ -46,7 +46,7 @@ div li:nth-child(1n) {
   display:none;
 }
 
-.navigation a:hover + .dropdown {
+#navigation a:hover + .dropdown {
   display: block;
 }
 
