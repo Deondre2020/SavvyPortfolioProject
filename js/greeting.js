@@ -1,4 +1,4 @@
-var greetUser = function greetUser(){
+-var greetUser = function greetUser(){
   var firstName = prompt("What is your name for real this time");
 
   if(firstName ===""){
