@@ -85,6 +85,9 @@ padding-top: 150px;
 
 .myAdventure {
   background-image: url("https://i.ytimg.com/vi/4F3Uqek-Huk/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 img.center {
