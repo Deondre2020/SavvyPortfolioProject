@@ -25,17 +25,16 @@ else{
 }
 
 if( story.choicesMiddle == "takeShortcut" ){
-    alert( story.takeShortcut );
+    prompt( "please input callForHelp, takeShortcut, or wait" );
 }
 else{
-    alert( "please input callForHelp, takeShortcut, or wait" );
+    prompt( "please input callForHelp, takeShortcut, or wait" );
 }
 
 if( story.choicesMiddle == "wait" ){
     alert( story.wait );
 }
 else{
-    alert( "please input callForHelp, takeShortcut, or wait" );
     prompt( story.choicesMiddle );
 }
 
