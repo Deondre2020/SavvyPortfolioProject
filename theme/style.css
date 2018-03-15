@@ -79,6 +79,10 @@ padding-top: 150px;
   background-size: cover;
 }
 
+#myPortfolio-Paragraph1 {
+font-weight: bold;
+}
+
 #myAdventure {
   background-image: url("https://i.ytimg.com/vi/4F3Uqek-Huk/maxresdefault.jpg");
   background-repeat: no-repeat;
